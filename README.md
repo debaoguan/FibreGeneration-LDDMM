@@ -3,14 +3,14 @@ This is the code and data for mapping an ex vivo DTMRI data set into a bi-ventri
 
 # To run the code
 
-Please follow the steps in LDDMMFibreMappingMain.m, each step is within the if-end block, you will need to manually to run each steps to avoid any errors. Before run the code, you will need to download two files, one is CanineData_matlabFormat.zip, the link can be found under CannineData folder. The other file is NeoNatalHeart.zip, the link can be found in NeonatalHeart folder.
+Please follow the steps in LDDMMFibreMappingMain.m, each step is within the if-end block, you will need to manually run each steps to avoid any errors. Before run the code, you will need to download two files, one is CanineData_matlabFormat.zip, the link can be found under CannineData folder. The other file is NeoNatalHeart.zip, the link can be found in NeonatalHeart folder.
 
 # requirements 
 
 * Matlab
 
-* Deformetrica (geometry warpping)
+* Deformetrica (geometry warpping, http://www.deformetrica.org/)
 
-* Fenics (interpolation)
+* Fenics (interpolation, https://fenicsproject.org/)
 
-* Paraview (visualization)
+* Paraview (visualization, https://www.paraview.org/)
