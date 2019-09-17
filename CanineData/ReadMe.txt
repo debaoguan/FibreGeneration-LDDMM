@@ -1,0 +1,2 @@
+Please download CanineData_matlabFormat.zip to this folder, and unzip every file within this folder, no subfolders. The link is 
+https://gla-my.sharepoint.com/:u:/g/personal/hao_gao_glasgow_ac_uk/ESwe-da83NNLi1aWj4PHyiwBwmY0OGNXxPoefQEfaZf7TA?e=m73kEP
