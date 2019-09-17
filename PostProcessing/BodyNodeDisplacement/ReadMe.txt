@@ -1,0 +1,2 @@
+1. To get displacement of every node in geometry, run Poisson Function code in 'fenics' conda environment when setting the displacement of surface node as boundary conditions.
+2. Then, run matlab code to read and summarize results data.
