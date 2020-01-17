@@ -11,8 +11,8 @@ filepath='D:\DBGuan\DTMRImapping\MatlabCode - Copy\InputOutputFile\';
 % read the element and node from deformed template 
 %'Step 1: Read data' 
 element1=load([filepath 'Template_element.txt']);
-node1=load([filepath 'Template_node.txt']);
-fibre_sheet=load([filepath 'fibreDeformation_TemplateToTarget.txt');
+node1=load([filepath 'nodeDeformed_TemplateToTarget.txt']);
+fibre_sheet=load([filepath 'fibreDeformation_TemplateToTarget.txt']);
 
 %compute central coordinate
 for i=1:size(element1,1)
@@ -70,7 +70,7 @@ for i=1:size(element2,1)
     end
 end
 %write out the mapping fibre for target mesh
-fid1 = fopen([filepath 'Target_fibre.txt','w');
+fid1 = fopen([filepath 'Target_fibre.txt'],'w');
  
 for i = 1 : size(fibre_sheet_traget,1)
     fprintf(fid1, 'i,\t%f, \t%f, \t%f\n', i, fibre_sheet_traget(i,1),fibre_sheet_traget(i,2),fibre_sheet_traget(i,3));
